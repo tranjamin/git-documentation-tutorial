@@ -16,6 +16,6 @@ jobs:
       - name: upload
         uses: actions/upload-artifact@v4.3.4
         with:
-          name: PDF
+          name: main.pdf
           path: main.pdf
         

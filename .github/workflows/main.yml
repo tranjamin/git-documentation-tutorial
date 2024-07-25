@@ -7,12 +7,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: log
-        run: ls -al
       - name: build
-        uses: xu-cheng/latex-action@3.2.0
+        uses: xu-cheng/latex-action@3.0.0
         with:
-          root_file: main.tex
+          root_file: |
+            main.tex
       - name: upload
         uses: actions/upload-artifact@v4.3.4
         with:

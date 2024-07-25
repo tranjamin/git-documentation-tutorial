@@ -1,0 +1,19 @@
+name: "LaTex Build PDF"
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        uses: xu-cheng/latex-action@3.2.0
+        with:
+          root_file: main.tex
+      - name: upload
+        uses: actions/upload-artifact@v3.2.0
+        with:
+          name: PDF
+          path: main.pdf
+        

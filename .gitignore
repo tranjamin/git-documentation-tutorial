@@ -12,6 +12,9 @@
 *.cb2
 .*.lb
 
+## Output file (to be generated as an action)
+main.pdf
+
 ## Intermediate documents:
 *.dvi
 *.xdv

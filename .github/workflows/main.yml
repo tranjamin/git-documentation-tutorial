@@ -7,6 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: log
+        run: ls -al
       - name: build
         uses: xu-cheng/latex-action@3.2.0
         with:

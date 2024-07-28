@@ -43,7 +43,7 @@ Once you have created a new branch, you will get a new option: `Publish branch`.
 
 ## Making edits
 
-Click on the `Current branch` dropdown and select which branch you want to edit - in this case, it will be the one you just made. Then go ahead and make a change by adding your name to the main.tex file. If you're familiar with LaTex, go ahead and use your preferred workflow (you can click `Show in Explorer` to see where your files are). If you aren't, follow these instructions:
+Click on the `Current branch` dropdown and select which branch you want to edit - in this case, it will be the one you just made. Then go ahead and make a change by adding your name and a blurb to the main.tex file (there's a format in the file you can copy). If you're familiar with LaTex, go ahead and use your preferred workflow (you can click `Show in Explorer` to see where your files are). If you aren't, follow these instructions:
 
 ### Editing LaTex Files
 
